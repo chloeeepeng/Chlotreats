@@ -21,11 +21,11 @@ Object.assign(recipes, {
       { name: "甜甜圈盐", displayName: "盐", amount: 3, unit: "g" },
       { name: "甜甜圈糖", displayName: "糖", amount: 30, unit: "g" },
       { name: "甜甜圈干酵母", displayName: "干酵母", amount: 2, unit: "g" },
-      { name: "甜甜圈全蛋", displayName: "全蛋", amount: 1, unit: "pc" },
+      { name: "甜甜圈全蛋", displayName: "全蛋", amount: 1, unit: "个" },
       { name: "甜甜圈黄油", displayName: "黄油", amount: 25, unit: "g" },
 
       { type: "heading", text: "卡仕达酱" },
-      { name: "卡仕达蛋黄", displayName: "蛋黄", amount: 3, unit: "pc" },
+      { name: "卡仕达蛋黄", displayName: "蛋黄", amount: 3, unit: "个" },
       { name: "卡仕达糖", displayName: "糖", amount: 50, unit: "g" },
       { name: "卡仕达玉米淀粉", displayName: "玉米淀粉", amount: 25, unit: "g" },
       { name: "卡仕达牛奶", displayName: "牛奶", amount: 300, unit: "g" },
@@ -82,7 +82,7 @@ Object.assign(recipes, {
       { name: "肠仔包干酵母", displayName: "干酵母", amount: 2, unit: "g" },
       { name: "肠仔包全蛋液", displayName: "全蛋液", amount: 25, unit: "g" },
       { name: "肠仔包黄油", displayName: "黄油", amount: 17, unit: "g" },
-      { name: "热狗肠", amount: 3, unit: "pc" },
+      { name: "热狗肠", amount: 3, unit: "根" },
       { name: "肠仔包芝麻", displayName: "芝麻", amount: 0, unit: "适量" }
     ],
     steps: [
@@ -320,7 +320,7 @@ Object.assign(recipes, {
       { name: "菠菜培根芝士黄油", displayName: "黄油", amount: 17, unit: "g" },
       { name: "菠菜", amount: 80, unit: "g" },
       { name: "培根", amount: 70, unit: "g" },
-      { name: "马苏里拉芝士", amount: 80, unit: "pc" }
+      { name: "马苏里拉芝士", amount: 80, unit: "g" }
     ],
     steps: [
       "将 {菠菜培根芝士波兰种高筋面粉} 高筋面粉、{菠菜培根芝士波兰种水} 水、{菠菜培根芝士波兰种干酵母} 干酵母和 {菠菜培根芝士波兰种糖} 糖混合均匀。",
@@ -581,7 +581,7 @@ Object.assign(recipes, {
       { name: "芋泥糖", displayName: "糖", amount: 12, unit: "g" },
 
       { type: "heading", text: "卡仕达" },
-      { name: "芋泥卡仕达蛋黄", displayName: "蛋黄", amount: 1, unit: "pc" },
+      { name: "芋泥卡仕达蛋黄", displayName: "蛋黄", amount: 1, unit: "个" },
       { name: "芋泥卡仕达酱糖", displayName: "糖", amount: 15, unit: "g" },
       { name: "芋泥卡仕达玉米淀粉", displayName: "玉米淀粉", amount: 8, unit: "g" },
       { name: "芋泥卡仕达牛奶", displayName: "牛奶", amount: 100, unit: "g" },
@@ -650,7 +650,7 @@ Object.assign(recipes, {
       { name: "红豆馅盐", displayName: "盐", amount: 1, unit: "g" },
 
       { type: "heading", text: "卡仕达" },
-      { name: "红豆卡仕达蛋黄", displayName: "蛋黄", amount: 1, unit: "pc" },
+      { name: "红豆卡仕达蛋黄", displayName: "蛋黄", amount: 1, unit: "个" },
       { name: "红豆卡仕达酱糖", displayName: "糖", amount: 15, unit: "g" },
       { name: "红豆卡仕达玉米淀粉", displayName: "玉米淀粉", amount: 8, unit: "g" },
       { name: "红豆卡仕达牛奶", displayName: "牛奶", amount: 100, unit: "g" },
@@ -1016,8 +1016,8 @@ Object.assign(recipes, {
       { name: "肉桂卷盐", displayName: "盐", amount: 4, unit: "g" },
       { name: "肉桂卷糖", displayName: "糖", amount: 40, unit: "g" },
       { name: "肉桂卷干酵母", displayName: "干酵母", amount: 4, unit: "g" },
-      { name: "肉桂卷蛋黄", displayName: "蛋黄", amount: 1, unit: "pc" },
-      { name: "肉桂卷全蛋", displayName: "全蛋", amount: 1, unit: "pc" },
+      { name: "肉桂卷蛋黄", displayName: "蛋黄", amount: 1, unit: "个" },
+      { name: "肉桂卷全蛋", displayName: "全蛋", amount: 1, unit: "个" },
       { name: "肉桂卷无盐黄油", displayName: "无盐黄油", amount: 46, unit: "g" },
       { name: "改良剂", amount: 3, unit: "g" },
 
@@ -1086,7 +1086,7 @@ Object.assign(recipes, {
       { name: "卡仕达包黄油", displayName: "黄油", amount: 20, unit: "g" },
 
       { type: "heading", text: "卡仕达酱" },
-      { name: "卡仕达包蛋黄", displayName: "蛋黄", amount: 2, unit: "pc" },
+      { name: "卡仕达包蛋黄", displayName: "蛋黄", amount: 2, unit: "个" },
       { name: "卡仕达酱糖", displayName: "糖", amount: 30, unit: "g" },
       { name: "卡仕达酱玉米淀粉", displayName: "玉米淀粉", amount: 15, unit: "g" },
       { name: "卡仕达酱香草精", displayName: "香草精", amount: 3, unit: "g" },
@@ -1432,7 +1432,7 @@ Object.assign(recipes, {
       { name: "盐面包全蛋液", displayName: "全蛋液", amount: 15, unit: "g" },
       { name: "盐面包冷水", displayName: "冷水", amount: 122, unit: "g" },
       { name: "盐面包无盐黄油", displayName: "无盐黄油", amount: 20, unit: "g" },
-      { name: "有盐黄油", amount: 8, unit: "pc" }
+      { name: "有盐黄油", amount: 8, unit: "个" }
     ],
     steps: [
       "【法国老面】",
@@ -1480,18 +1480,18 @@ Object.assign(recipes, {
       { name: "卡仕达甜甜圈糖", displayName: "糖", amount: 35, unit: "g" },
       { name: "卡仕达甜甜圈盐", displayName: "盐", amount: 3, unit: "g" },
       { name: "卡仕达甜甜圈牛奶", displayName: "牛奶", amount: 110, unit: "g" },
-      { name: "卡仕达甜甜圈鸡蛋", displayName: "鸡蛋", amount: 1, unit: "pc" },
+      { name: "卡仕达甜甜圈鸡蛋", displayName: "鸡蛋", amount: 1, unit: "个" },
       { name: "卡仕达甜甜圈黄油", displayName: "黄油", amount: 22, unit: "g" },
 
       { type: "heading", text: "香草卡仕达" },
-      { name: "香草卡仕达蛋黄", displayName: "蛋黄", amount: 1.5, unit: "pc" },
+      { name: "香草卡仕达蛋黄", displayName: "蛋黄", amount: 1.5, unit: "个" },
       { name: "香草卡仕达糖", displayName: "糖", amount: 15, unit: "g" },
       { name: "香草卡仕达玉米淀粉", displayName: "玉米淀粉", amount: 11, unit: "g" },
       { name: "香草卡仕达牛奶", displayName: "牛奶", amount: 150, unit: "g" },
       { name: "香草精", amount: 0, unit: "适量" },
 
       { type: "heading", text: "抹茶卡仕达" },
-      { name: "抹茶卡仕达蛋黄", displayName: "蛋黄", amount: 1.5, unit: "pc" },
+      { name: "抹茶卡仕达蛋黄", displayName: "蛋黄", amount: 1.5, unit: "个" },
       { name: "抹茶卡仕达糖", displayName: "糖", amount: 15, unit: "g" },
       { name: "抹茶卡仕达玉米淀粉", displayName: "玉米淀粉", amount: 11, unit: "g" },
       { name: "抹茶粉", amount: 2, unit: "g" },
