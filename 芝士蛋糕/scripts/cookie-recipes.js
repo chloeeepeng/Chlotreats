@@ -1,4 +1,35 @@
 Object.assign(recipes, {
+  "brown-butter-choc-chip-cookies": {
+    title: "焦化黄油巧克力曲奇",
+    name: "Brown Butter Choc Chip Cookies",
+    image: "../images/brown-butter-cookies.png",
+    imagePosition: "center center",
+    imageZoom: 1,
+    intro: "",
+    ingredients: [
+      { name: "焦化黄油巧克力曲奇黄油", displayName: "黄油", amount: 113, unit: "g" },
+      { name: "焦化黄油巧克力曲奇白砂糖", displayName: "白砂糖", amount: 40, unit: "g" },
+      { name: "焦化黄油巧克力曲奇红糖", displayName: "红糖", amount: 110, unit: "g" },
+      { name: "焦化黄油巧克力曲奇全蛋液", displayName: "全蛋液", amount: 50, unit: "g" },
+      { name: "焦化黄油巧克力曲奇香草精", displayName: "香草精", amount: 3, unit: "g" },
+      { name: "焦化黄油巧克力曲奇高筋面粉", displayName: "高筋面粉", amount: 150, unit: "g" },
+      { name: "焦化黄油巧克力曲奇泡打粉", displayName: "泡打粉", amount: 1, unit: "g" },
+      { name: "焦化黄油巧克力曲奇小苏打", displayName: "小苏打", amount: 3, unit: "g" },
+      { name: "焦化黄油巧克力曲奇黑巧克力", displayName: "黑巧克力", amount: 110, unit: "g" },
+    ],
+    steps: [
+      "中火加热 {焦化黄油巧克力曲奇黄油} 黄油至出现棕色，然后冷却至手温。",
+      "加入 {焦化黄油巧克力曲奇红糖} 红糖和 {焦化黄油巧克力曲奇白砂糖} 白砂糖搅拌均匀。",
+      "加入室温 {焦化黄油巧克力曲奇全蛋液} 全蛋液和 {焦化黄油巧克力曲奇香草精} 香草精。",
+      "筛入 {焦化黄油巧克力曲奇高筋面粉} 高筋面粉、{焦化黄油巧克力曲奇泡打粉} 泡打粉和 {焦化黄油巧克力曲奇小苏打} 小苏打。",
+      "拌入 {焦化黄油巧克力曲奇黑巧克力} 黑巧克力。",
+      "冷藏面团 1 小时。",
+      "烤箱预热 180°C。",
+      "分成 50g 左右的小面团，稍微压扁。",
+      "180°C 烤 10 分钟。",
+    ],
+  },
+
   "biscoff-white-chocolate-cookies": {
     title: "Biscoff白巧软曲奇",
     name: "Biscoff White Chocolate Cookies",
