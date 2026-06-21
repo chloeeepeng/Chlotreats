@@ -3,7 +3,7 @@ Object.assign(recipes, {
     title: "焦化黄油巧克力曲奇",
     name: "Brown Butter Choc Chip Cookies",
     image: "../images/brown-butter-cookies.png",
-    imagePosition: "center center",
+    imagePosition: "center 85%",
     imageZoom: 1,
     intro: "",
     ingredients: [
