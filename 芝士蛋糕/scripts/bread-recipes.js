@@ -113,7 +113,7 @@ Object.assign(recipes, {
 
   "rotiboy": {
     title: "波兰种墨西哥面包（原味）",
-    name: "Rotiboy",
+    name: "Rotiboy (Plain)",
     image: "../images/rotiboy.png",
     imagePosition: "center center",
     imageZoom: 1,
