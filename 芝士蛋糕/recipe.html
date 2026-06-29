@@ -2273,20 +2273,56 @@
 
       let wakeLock = null;
       const wakeLockToggle = document.getElementById("wakeLockToggle");
+      let wakeLockUnsupportedShown = false;
 
       async function requestWakeLock() {
-        if ("wakeLock" in navigator) {
+        if (!("wakeLock" in navigator)) {
+          if (!wakeLockUnsupportedShown) {
+            alert("这个浏览器不支持防止屏幕变暗功能。");
+            wakeLockUnsupportedShown = true;
+          }
+
+          wakeLockToggle.checked = false;
+          return;
+        }
+
+        if (
+          wakeLock !== null ||
+          !wakeLockToggle.checked ||
+          document.visibilityState !== "visible"
+        ) {
+          return;
+        }
+
+        try {
           wakeLock = await navigator.wakeLock.request("screen");
-        } else {
-          alert("这个浏览器不支持防止屏幕变暗功能。");
+          wakeLock.addEventListener("release", () => {
+            wakeLock = null;
+
+            if (
+              wakeLockToggle.checked &&
+              document.visibilityState === "visible"
+            ) {
+              window.setTimeout(requestWakeLock, 250);
+            }
+          });
+        } catch (error) {
+          console.warn("Wake Lock request failed:", error);
+          wakeLock = null;
           wakeLockToggle.checked = false;
         }
       }
 
       async function releaseWakeLock() {
         if (wakeLock !== null) {
-          await wakeLock.release();
+          const sentinel = wakeLock;
           wakeLock = null;
+
+          try {
+            await sentinel.release();
+          } catch (error) {
+            console.warn("Wake Lock release failed:", error);
+          }
         }
       }
 
@@ -2296,6 +2332,30 @@
         } else {
           await releaseWakeLock();
         }
+      });
+
+      document.addEventListener("visibilitychange", async () => {
+        if (document.visibilityState === "visible" && wakeLockToggle.checked) {
+          await requestWakeLock();
+        } else {
+          await releaseWakeLock();
+        }
+      });
+
+      window.addEventListener("focus", () => {
+        if (wakeLockToggle.checked) {
+          requestWakeLock();
+        }
+      });
+
+      window.addEventListener("pageshow", () => {
+        if (wakeLockToggle.checked) {
+          requestWakeLock();
+        }
+      });
+
+      window.addEventListener("pagehide", () => {
+        releaseWakeLock();
       });
       renderRecipe();
     </script>
