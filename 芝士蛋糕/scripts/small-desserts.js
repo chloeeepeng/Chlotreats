@@ -297,7 +297,7 @@ Object.assign(recipes, {
     image: "../images/earl-grey-madeleines.jpeg",
     imagePosition: "center 70%",
     imageZoom: 1,
-    intro: '原方来自<a href="https://www.youtube.com/watch?v=M4BGif3Ga-Q&t=235s&pp=ygUUZWFybCBncmV5IG1hZGVsZWluZXM%3D" target="_blank" style="color: #6b4f3d; text-decoration: underline">J&#39;adore</a>',
+    intro: '原方来自<a href="https://www.youtube.com/watch?v=M4BGif3Ga-Q&t=235s&pp=ygUUZWFybCBncmV5IG1hZGVsZWluZXM%3D" target="_blank" style="color: #6b4f3d; text-decoration: underline">J&#39;adore</a><br>糖霜份量有多可以减半制作<br>面糊能做12个玛德琳',
     ingredients: [
       { name: "伯爵玛德琳融化黄油", displayName: "融化黄油", amount: 85, unit: "g" },
       { name: "伯爵玛德琳全蛋液", displayName: "全蛋液", amount: 82, unit: "g" },
@@ -327,7 +327,7 @@ Object.assign(recipes, {
       "倒入伯爵茶奶油。",
       "冷藏静置 1 小时以上，最多放 2 天。",
       "倒入裱花袋中。",
-      "烤箱 200°C 烤 4 分钟，180°C 烤 4-5 分钟。",
+      "烤箱 200°C 烤 4 分钟，180°C 烤 4+4 分钟。",
       "脱模放凉。",
       "【糖霜】",
       "{糖霜伯爵茶叶} 茶叶倒入{糖霜热水} 70-80°C 的热水中浸泡 20-30 分钟。",
