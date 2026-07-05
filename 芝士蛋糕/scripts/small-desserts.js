@@ -295,7 +295,7 @@ Object.assign(recipes, {
     title: "伯爵玛德琳",
     name: "Earl Grey Madeleines",
     image: "../images/earl-grey-madeleines.jpeg",
-    imagePosition: "center 70%",
+    imagePosition: "center 60%",
     imageZoom: 1,
     intro: '原方来自<a href="https://www.youtube.com/watch?v=M4BGif3Ga-Q&t=235s&pp=ygUUZWFybCBncmV5IG1hZGVsZWluZXM%3D" target="_blank" style="color: #6b4f3d; text-decoration: underline">J&#39;adore</a><br>糖霜份量有多可以减半制作<br>面糊能做12个玛德琳',
     ingredients: [
@@ -314,7 +314,7 @@ Object.assign(recipes, {
       { name: "糖霜伯爵茶叶", displayName: "伯爵茶叶", amount: 2, unit: "g" },
       { name: "糖霜热水", displayName: "热水", amount: 25, unit: "g" },
       { name: "糖粉", amount: 80, unit: "g" },
-      { name: "糖霜水", displayName: "水", amount: 5, unit: "g"},
+    
     ],
     steps: [
       "{伯爵玛德琳淡奶油} 淡奶油加热至 70-80°C，倒入 {伯爵茶叶} 伯爵茶浸泡 20-30 分钟。",
@@ -331,7 +331,7 @@ Object.assign(recipes, {
       "脱模放凉。",
       "【糖霜】",
       "{糖霜伯爵茶叶} 茶叶倒入{糖霜热水} 70-80°C 的热水中浸泡 20-30 分钟。",
-      "过滤茶叶，加入 {糖粉} 糖粉，再加入剩下的 {糖霜水} 水调节浓稠度。",
+      "过滤茶叶，加入 {糖粉} 糖粉。",
       "刷在冷却的玛德琳上，130°C 烤 1 分钟定型，或放置室温风干。",
     ],
   },
