@@ -646,6 +646,37 @@ Object.assign(recipes, {
     ],
   },
 
+  "brownies": {
+    title: "布朗尼",
+    name: "Brownies",
+    image: "../images/brownies.png",
+    imagePosition: "center center",
+    imageZoom: 1,
+    intro: "8 寸方形模具。",
+    ingredients: [
+      { name: "布朗尼黑巧70", displayName: "黑巧克力 70%", amount: 200, unit: "g" },
+      { name: "布朗尼黄油", displayName: "无盐黄油", amount: 110, unit: "g" },
+      { name: "布朗尼室温鸡蛋", displayName: "鸡蛋（室温）", amount: 3, unit: "个" },
+      { name: "布朗尼细砂糖", displayName: "细砂糖", amount: 160, unit: "g" },
+      { name: "布朗尼黄糖", displayName: "黄糖", amount: 55, unit: "g" },
+      { name: "布朗尼香草膏", displayName: "香草膏", amount: 5, unit: "g" },
+      { name: "布朗尼盐", displayName: "盐", amount: 1, unit: "g" },
+      { name: "布朗尼中筋面粉", displayName: "中筋面粉", amount: 65, unit: "g" },
+      { name: "布朗尼可可粉", displayName: "可可粉", amount: 25, unit: "g" },
+    ],
+    steps: [
+      "8 寸方形模具刷油，垫入烘焙纸。",
+      "{布朗尼黑巧70} 黑巧和 {布朗尼黄油} 黄油隔热水融化。",
+      "{布朗尼室温鸡蛋} 鸡蛋、{布朗尼细砂糖} 细砂糖、{布朗尼黄糖} 黄糖、{布朗尼香草膏} 香草膏和 {布朗尼盐} 盐隔热水搅拌融化。",
+      "取出，高速打发 3 分钟至颜色发白、体积蓬松。",
+      "转低速打发 1 分钟。",
+      "低速倒入黑巧黄油混合均匀。",
+      "{布朗尼中筋面粉} 中筋面粉和 {布朗尼可可粉} 可可粉过筛，翻拌均匀。",
+      "倒入模具中，170°C 烤 24 分钟。",
+      "从烤箱里取出，完全放凉后再脱模。",
+    ],
+  },
+
   "banana-brownie": {
     title: "香蕉布朗尼",
     name: "Banana Brownies",
