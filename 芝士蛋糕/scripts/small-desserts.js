@@ -120,7 +120,7 @@ Object.assign(recipes, {
   "blueberry-muffin": {
     title: "蓝莓酥粒玛芬蛋糕",
     name: "Blueberry Muffins",
-    image: "../images/blueberry-muffins.jpeg",
+    image: "../images/blueberry-muffins.png",
     imagePosition: "center 70%",
     imageZoom: 1,
     intro: "配方参考<a href='https://sallysbakingaddiction.com/blueberry-muffins/#tasty-recipes-67559'target='_blank' style='color: #6b4f3d; text-decoration: underline;'>Sally's Baking</a><br>可用 180g 酸牛奶代替酸奶和牛奶<br>减了30%的糖",
