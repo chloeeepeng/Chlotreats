@@ -292,7 +292,7 @@ Object.assign(recipes, {
 
   "sable-diamant-cookies": {
     title: "沙布蕾钻石曲奇",
-    name: "Sable Diamant Cookies",
+    name: "Sablé Diamant Cookies",
     image: "../images/diamant.png",
     imagePosition: "center center",
     imageZoom: 1,
