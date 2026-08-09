@@ -297,7 +297,7 @@ Object.assign(recipes, {
     imagePosition: "center center",
     imageZoom: 1,
     intro:
-      "下雨天就在家烤曲奇吧。原方参考了油管 cook kafemaru，解锁了香草味和巧克力味。一个人吃不完刚好包装送朋友，巧合下发现包装袋刚好装下 4 块曲奇，好有满足感啊。",
+      "下雨天就在家烤曲奇吧</br>原方参考了油管<a href='https://www.youtube.com/watch?v=zyXCft6V3_k&list=PLrQepuxXEyspt9h-9ZxDE9hmffrYWdr11&index=76&t=262s' target='_blank' style='color: #6b4f3d; text-decoration: underline'>cook kafemaru</a>，解锁了香草味和巧克力味</br>一个人吃不完刚好包装送朋友，巧合下发现包装袋刚好装下 4 块曲奇，好有满足感啊 </br> 14克可可粉有点苦，下次放10克",
     ingredients: [
       { type: "heading", text: "原味面团（12块）" },
       { name: "原味沙布蕾无盐黄油", displayName: "无盐黄油", amount: 50, unit: "g" },
