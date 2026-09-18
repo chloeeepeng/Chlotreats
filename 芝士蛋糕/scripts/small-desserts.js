@@ -75,7 +75,7 @@ Object.assign(recipes, {
     title: "苹果派",
     name: "Apple Pie",
     image: "../images/apple-pie.png",
-    imagePosition: "center 60%",
+    imagePosition: "center 65%",
     imageZoom: 1,
     intro: "配方来自 <a href='https://www.youtube.com/watch?v=4-bN7_fGwv4&list=PLrQepuxXEyspt9h-9ZxDE9hmffrYWdr11&index=42&t=444s&pp=iAQBsAgC' target='_blank' style='color: #6b4f3d; text-decoration: underline;'>emojoie</a>",
     ingredients: [
